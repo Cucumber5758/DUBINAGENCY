@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио | Дубин Е.Н.</title>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css?">
+    <style>
+
+</style>
+</head>
+<body>
+<div class="glow-decor" aria-hidden="true">
+    <div class="glow-spot top-left"></div>
+    <div class="glow-spot bottom-right"></div>
+    <div class="glow-spot mid-left"></div>
+</div>
+<header>
+    <div class="container">
+        <nav class="navbar">
+            <a href="index.html" class="logo">
+                <h1><i class="fas fa-paint-brush"></i> DUBIN</h1>
+                <p>Рекламное агентство</p>
+            </a>
+            <button class="mobile-toggle" aria-label="Меню"><i class="fas fa-bars"></i></button>
+            <ul class="nav-links">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="#" class="active">Портфолио</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section class="hero" id="portfolio-hero">
+    <div class="hero-bg-circles"><div class="bg-circle"></div><div class="bg-circle"></div></div>
+    <div class="container" style="text-align: center; position: relative; z-index: 2;">
+        <h2 class="section-title">Избранные проекты</h2>
+        <p class="section-subtitle">Реальные кейсы, которые принесли результат нашим клиентам</p>
+    </div>
+</section>
+
+<section class="section portfolio-top-gap">
+    <div class="container">
+        <div class="portfolio-filters">
+            <button class="filter-btn active" data-category="all">Все</button>
+            <button class="filter-btn" data-category="branding">Брендинг</button>
+            <button class="filter-btn" data-category="polygraphy">Полиграфия</button>
+            <button class="filter-btn" data-category="smm">SMM</button>
+        </div>
+
+        <div class="portfolio-grid">
+            <div class="portfolio-card" data-category="branding" data-project="1">
+                <div class="portfolio-preview">
+    <img src="img/наружная реклама.jpg" alt="Наружная реклама">
+</div>
+                <div class="portfolio-overlay"><i class="fas fa-arrow-up-right-from-square"></i></div>
+                <div class="portfolio-info"><h3>Наружная реклама магазина одежды</h3></div>
+            </div>
+            <div class="portfolio-card" data-category="polygraphy" data-project="2">
+                <div class="portfolio-preview">
+    <img src="img/визитки.png" alt="Наружная реклама">
+</div>
+                <div class="portfolio-overlay"><i class="fas fa-arrow-up-right-from-square"></i></div>
+                <div class="portfolio-info"><h3>Визитки для суши-бара</h3></div>
+            </div>
+            <div class="portfolio-card" data-category="smm" data-project="3">
+               <div class="portfolio-preview">
+    <img src="img/смм.png" alt="Наружная реклама">
+</div>
+                <div class="portfolio-overlay"><i class="fas fa-arrow-up-right-from-square"></i></div>
+                <div class="portfolio-info"><h3>SMM Косметология</h3></div>
+            </div>
+            <div class="portfolio-card" data-category="branding" data-project="4">
+                <div class="portfolio-preview">
+    <img src="img/упаковка.jpg" alt="Наружная реклама">
+</div>
+                <div class="portfolio-overlay"><i class="fas fa-arrow-up-right-from-square"></i></div>
+                <div class="portfolio-info"><h3>Фирменная упаковка воды</h3></div>
+            </div>
+            <div class="portfolio-card" data-category="polygraphy" data-project="5">
+               <div class="portfolio-preview">
+    <img src="img/визитки.png" alt="Наружная реклама">
+</div>
+                <div class="portfolio-overlay"><i class="fas fa-arrow-up-right-from-square"></i></div>
+                <div class="portfolio-info"><h3>Визитки для кофейни</h3></div>
+            </div>
+            <div class="portfolio-card" data-category="smm" data-project="6">
+                <div class="portfolio-preview">
+    <img src="img/смм.png" alt="Наружная реклама">
+</div>
+                <div class="portfolio-overlay"><i class="fas fa-arrow-up-right-from-square"></i></div>
+                <div class="portfolio-info"><h3>SMM ЖК </h3></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ========== 💰 ПРАЙС ========== -->
+<section class="section pricing-section" style="background: var(--bg-secondary);">
+    <div class="container">
+        <h2 class="section-title" style="display: block; margin-bottom: 12px;">Прайс-лист</h2>
+        <p class="section-subtitle" style="margin-bottom: 60px;">Прозрачные цены без скрытых платежей. Итоговая стоимость зависит от сложности.</p>
+        
+        <div class="pricing-grid">
+            <div class="pricing-card">
+                <div class="pricing-icon"><i class="fas fa-pen-ruler"></i></div>
+                <h3>Брендинг</h3>
+                <ul>
+                    <li><span>Разработка логотипа</span><strong>от 5 000 ₽</strong></li>
+                    <li><span>Брендбук</span><strong>от 25 000 ₽</strong></li>
+                </ul>
+            </div>
+            <div class="pricing-card">
+                <div class="pricing-icon"><i class="fas fa-print"></i></div>
+                <h3>Полиграфия</h3>
+                <ul>
+                    <li><span>Визитки (дизайн)</span><strong>от 1 500 ₽</strong></li>
+                    <li><span>Буклет/флаер (1 стр.)</span><strong>от 3 000 ₽</strong></li>
+                    <li><span>Каталог (12 стр.)</span><strong>от 12 000 ₽</strong></li>
+                </ul>
+            </div>
+            <div class="pricing-card">
+                <div class="pricing-icon"><i class="fas fa-chart-line"></i></div>
+                <h3>SMM & Реклама</h3>
+                <ul>
+                    <li><span>Ведение аккаунта (мес.)</span><strong>от 15 000 ₽</strong></li>
+                    <li><span>Контент-план + дизайн</span><strong>от 12 000 ₽</strong></li>
+                </ul>
+            </div>
+        </div>
+        
+    </div>
+</section>
+
+<footer id="contacts">
+    <div class="container">
+        <div class="social-links">
+            <a href="https://t.me/stopaltos"><i class="fab fa-telegram"></i></a>
+            <a href="https://wa.me/79146607485"><i class="fab fa-whatsapp"></i></a>
+        </div>
+        <p><strong>© 2026 ИП Дубин Е.Н.</strong> — Рекламное агентство</p>
+        <p>ОГРНИП 318253600010052 | Уссурийск, Приморский край</p>
+    </div>
+</footer>
+
+<!-- ========== МОДАЛЬНЫЕ ОКНА ========== -->
+<div class="modal-backdrop" id="projectModal">
+    <div class="modal">
+        <button class="modal-close" aria-label="Закрыть"><i class="fas fa-xmark"></i></button>
+        <div class="modal-header">
+            <span class="modal-badge" id="modalBadge">Брендинг</span>
+            <h2 id="modalTitle">Логотип для кофейни</h2>
+        </div>
+        <div class="modal-body">
+            <div class="modal-visual" id="modalVisual"><i class="fas fa-palette"></i></div>
+            <div class="modal-content">
+                <div class="modal-info">
+                    <p id="modalDesc">Разработка уникального логотипа и фирменного стиля для уютной кофейни в центре города.</p>
+                    <div class="modal-details">
+                        <div class="modal-detail"><span>Заказчик:</span><strong id="modalClient">Кофейня «Зерно»</strong></div>
+                        <div class="modal-detail"><span>Сроки:</span><strong id="modalTime">2 недели</strong></div>
+                        <div class="modal-detail"><span>Стоимость:</span><strong id="modalCost">12 000 ₽</strong></div>
+                    </div>
+                </div>
+                <div class="modal-tasks">
+                    <h4><i class="fas fa-list-check"></i> Что было сделано</h4>
+                    <ul id="modalTasks">
+                        <li>Анализ конкурентов и целевой аудитории</li>
+                        <li>5 концепций логотипа на выбор</li>
+                        <li>Фирменные цвета и типографика</li>
+                        <li>Подготовка макетов для печати</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    // Мобильное меню
+    const mobileToggle = document.querySelector('.mobile-toggle');
+    const navLinks = document.querySelector('.nav-links');
+    mobileToggle?.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
+        const icon = mobileToggle.querySelector('i');
+        icon.classList.toggle('fa-bars');
+        icon.classList.toggle('fa-xmark');
+    });
+
+    window.addEventListener('scroll', () => document.querySelector('header').classList.toggle('scrolled', window.scrollY > 50));
+
+    // Фильтрация портфолио
+    const filterBtns = document.querySelectorAll('.filter-btn');
+    const cards = document.querySelectorAll('.portfolio-card');
+    filterBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+            filterBtns.forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            const category = btn.dataset.category;
+            cards.forEach(card => {
+                if (category === 'all' || card.dataset.category === category) {
+                    card.classList.remove('hidden'); card.style.display = 'block';
+                    setTimeout(() => { card.style.opacity = '1'; card.style.transform = 'scale(1)'; }, 10);
+                } else {
+                    card.style.opacity = '0'; card.style.transform = 'scale(0.95)';
+                    setTimeout(() => { card.classList.add('hidden'); card.style.display = 'none'; }, 350);
+                }
+            });
+        });
+    });
+
+    // 🔥 АНИМАЦИЯ ПРАЙСА ПРИ СКРОЛЛЕ (добавлено)
+    if ('IntersectionObserver' in window) {
+        const priceObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate-in');
+                    priceObserver.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.15 });
+        document.querySelectorAll('.pricing-card').forEach((el, i) => {
+            el.style.transitionDelay = `${i * 0.1}s`;
+            priceObserver.observe(el);
+        });
+    }
+
+    // Данные проектов
+    const projects = {
+    1: { img: 'img/she.jpg', badge: 'Брендинг', title: 'Наружная реклама', desc: 'Разработка уникального баннера и фирменного стиля для магазина одежды в центре города.', client: 'Импертрица»', time: '2 недели', cost: '15 000 ₽', tasks: ['Анализ конкурентов и целевой аудитории', '5 концепций дизайна на выбор', 'Фирменные цвета и типографика', 'Подготовка макетов'] },
+    2: { img: 'img/aipic-52563.jpg', badge: 'Полиграфия', title: 'Визитки', desc: 'Дизайн визиток для суши-бара', client: 'Суши-бар «Оригами»', time: '1 неделя', cost: '8 000 ₽', tasks: ['Дизайн двусторонних визиток', 'Подготовка к печати', 'Передача файлов'] },
+    3: { img: 'img/красивое здоровье.jpg', badge: 'SMM', title: 'Контент-стратегия', desc: 'Комплексная разработка фирменного стиля', client: 'Салон красоты «Красивое здоровье»', time: '2 недели', cost: '15 000 ₽', tasks: ['Анализ конкурентов', 'Логотип и фирменный знак', '5 шаблонов', ] },
+    4: { img: 'img/вода.jpg', badge: 'Брендинг', title: 'Фирменная упаковка', desc: 'Комплексная разработка фирменного стиля для бутылей воды.', client: ' «Орон»', time: '1 неделя', cost: '9 000 ₽', tasks: ['Логотип и фирменный знак', 'Цветовая палитра и шрифты', '6 концепций дизайна на выбор'] },
+    5: { img: 'img/чайковский.jpg', badge: 'Полиграфия', title: 'Визитки', desc: 'Дизайн визиток для кофейни', client: 'Кофейня «Chaikofsky»', time: '1 неделя', cost: '6 000 ₽', tasks: ['Дизайн двусторонних визиток', 'Подготовка к печати', 'Передача файлов'] },
+    6: { img: 'img/атриум.jpg', badge: 'SMM', title: 'Контент-стратегия', desc: 'Разработка контент-стратегии и запуск таргетированной рекламы.', client: 'ЖК Атриум', time: '3 недели', cost: '20 00 ₽', tasks: ['Контент-стратегия на 3 месяца', 'Аналитика и отчёты', '3 концепции дизайна на выбор' ] }
+};
+
+
+    // Модалка
+    const modal = document.getElementById('projectModal');
+    const modalClose = modal.querySelector('.modal-close');
+    cards.forEach(card => {
+        card.addEventListener('click', () => {
+            const id = card.dataset.project;
+            const p = projects[id];
+            if (!p) return;
+            document.getElementById('modalBadge').textContent = p.badge;
+            document.getElementById('modalTitle').textContent = p.title;
+            document.getElementById('modalVisual').innerHTML = `<img src="${p.img}" alt="${p.title}">`;
+            document.getElementById('modalDesc').textContent = p.desc;
+            document.getElementById('modalClient').textContent = p.client;
+            document.getElementById('modalTime').textContent = p.time;
+            document.getElementById('modalCost').textContent = p.cost;
+            document.getElementById('modalTasks').innerHTML = p.tasks.map(t => `<li>${t}</li>`).join('');
+            modal.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        });
+    });
+
+    function closeModal() {
+        modal.classList.remove('active');
+        document.body.style.overflow = '';
+    }
+    modalClose.addEventListener('click', closeModal);
+    modal.addEventListener('click', e => { if (e.target === modal) closeModal(); });
+    document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
+});
+</script>
+
+</body>
+</html>
